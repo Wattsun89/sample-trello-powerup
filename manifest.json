@@ -1,0 +1,15 @@
+{
+    "name": "Sample Trello PowerUp",
+    "description": "",
+    "details": "Sample powerup",
+    "author": "Edward Cochran",
+    "capabilities": [],
+    "connectors": {
+        "iframe": {
+            "url": "index.html"
+        }
+    },
+    "recommend": {
+        "urls": []
+    }
+}
