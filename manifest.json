@@ -3,7 +3,9 @@
     "description": "",
     "details": "Sample powerup",
     "author": "Edward Cochran",
-    "capabilities": [],
+    "capabilities": [
+        "card-badges"
+    ],
     "connectors": {
         "iframe": {
             "url": "index.html"
