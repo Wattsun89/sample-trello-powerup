@@ -4,7 +4,8 @@
     "details": "Sample powerup",
     "author": "Edward Cochran",
     "capabilities": [
-        "card-badges"
+        "card-badges",
+        "card-buttons"
     ],
     "connectors": {
         "iframe": {
