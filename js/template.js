@@ -15,7 +15,7 @@ TrelloPowerUp.initialize({
             return [{
                 text: `Last Updated: ${date.toDateString()}`,
                 color: "sky",
-                icon: "/assets/img/calendar-and-clock.png"
+                icon: "./assets/img/calendar-and-clock.png"
             }];
         });
     },
