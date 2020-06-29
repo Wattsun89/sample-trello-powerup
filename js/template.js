@@ -12,7 +12,7 @@ TrelloPowerUp.initialize({
         .then(function(card) {
             console.log(card);
             return [{
-                text: card.idShort
+                text: card.desc
             }];
         });
     },
