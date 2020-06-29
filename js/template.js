@@ -11,14 +11,10 @@ TrelloPowerUp.initialize({
         return t.card("all")
         .then(function(card) {
             var date = new Date();
-
             console.log(card);
             return [{
-                text: date.toDateString(card.dateLastActivity),
-                color: "blue"
-            }, {
-                text: card.idShort,
-                color: "green"
+                text: `Last Updated: ${date.toDateString(card.dateLastActivity)}`,
+                color: "sky"
             }];
         });
     },
