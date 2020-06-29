@@ -12,7 +12,11 @@ TrelloPowerUp.initialize({
         .then(function(card) {
             console.log(card);
             return [{
-                text: card.desc
+                text: card.desc,
+                color: "blue"
+            }, {
+                text: card.shortId,
+                color: "green"
             }];
         });
     },
