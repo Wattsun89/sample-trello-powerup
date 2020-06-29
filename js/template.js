@@ -15,7 +15,7 @@ TrelloPowerUp.initialize({
                 text: card.desc,
                 color: "blue"
             }, {
-                text: card.shortId,
+                text: card.idShort,
                 color: "green"
             }];
         });
