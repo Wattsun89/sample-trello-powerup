@@ -8,7 +8,13 @@ var onBtnClick = function(t,opts) {
 
 TrelloPowerUp.initialize({
     "card-badges": function(t,opts) {
-        return [];
+        return t.card("all")
+        .then(function(card) {
+            console.log(card);
+            return [{
+                text: card.idShort
+            }];
+        });
     },
     "card-buttons": function(t,opts) {
         return [{
@@ -24,4 +30,6 @@ TrelloPowerUp.initialize({
             target: "Trello Developer Site"
         }];
     }
-});
+}),{
+    appKey: ""
+};
