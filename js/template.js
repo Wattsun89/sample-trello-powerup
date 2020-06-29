@@ -14,7 +14,8 @@ TrelloPowerUp.initialize({
             console.log(card);
             return [{
                 text: `Last Updated: ${date.toDateString()}`,
-                color: "sky"
+                color: "sky",
+                icon: "/assets/img/calendar-and-clock.png"
             }];
         });
     },
