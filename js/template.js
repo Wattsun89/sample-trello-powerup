@@ -10,9 +10,11 @@ TrelloPowerUp.initialize({
     "card-badges": function(t,opts) {
         return t.card("all")
         .then(function(card) {
+            var date = new Date();
+
             console.log(card);
             return [{
-                text: card.dateLastActivity,
+                text: date.toDateString(card.dateLastActivity),
                 color: "blue"
             }, {
                 text: card.idShort,
