@@ -15,7 +15,7 @@ TrelloPowerUp.initialize({
             var date = new Date(card.dateLastActivity);
             console.log(card);
             return [{
-                text: `Last Updated: ${date.toDateString()}`,
+                text: `Last Updated: ${date.toLocaleDateString()}`,
                 color: "sky",
                 icon: "./assets/img/calendar-and-clock.png"
             }];
