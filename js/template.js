@@ -12,7 +12,7 @@ TrelloPowerUp.initialize({
         .then(function(card) {
             console.log(card);
             return [{
-                text: card.desc,
+                text: card.dateLastActivity,
                 color: "blue"
             }, {
                 text: card.idShort,
